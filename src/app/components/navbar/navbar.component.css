@@ -1,0 +1,25 @@
+.navbar {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px); /* ทำให้พื้นหลัง Navbar เบลอแบบกระจกฝ้า */
+  background-color: rgba(33, 37, 41, 0.9) !important; 
+}
+
+.nav-link {
+  position: relative;
+}
+
+/* เส้นใต้เท่ๆ เวลาเอาเมาส์ไปชี้เมนู */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0dcaf0;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}

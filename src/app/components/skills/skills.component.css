@@ -1,0 +1,17 @@
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.progress-bar {
+  transition: width 1.5s ease-in-out; /* ทำให้แถบพลังค่อยๆ วิ่งตอนโหลดหน้าเว็บ */
+  border-radius: 10px;
+}
+
+i {
+  color: #0d6efd; /* สีไอคอนตามธีม Bootstrap Primary */
+}

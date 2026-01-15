@@ -1,0 +1,24 @@
+.bg-soft-primary {
+  background-color: #e7f1ff;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.border-primary { border-color: #0d6efd !important; }
+.border-secondary { border-color: #6c757d !important; }
+
+.card img {
+  transition: transform 0.3s ease;
+  object-fit: cover; /* ป้องกันรูปบีบอัด */
+}
+
+.card:hover img {
+  transform: scale(1.02); /* เวลาเอาเมาส์ชี้ รูปจะขยายขึ้นนิดนึงดูมีมิติ */
+}
