@@ -68,11 +68,13 @@ allProjects = [
     desc: 'ระบบบริหารจัดการโต๊ะอาหารและออเดอร์แบบจำลอง โชว์การจัดการสถานะโต๊ะว่าง-ไม่ว่างแบบ Real-time', 
     tech: ['Angular', 'Bootstrap', 'State Management'],
     imageUrl: 'assets/Projects/steakhouse.png', // แคปภาพหน้าจอตอนโต๊ะเป็นสีเทามาใส่
-    link: '#',
+    link: 'https://steakhouse-management-system.vercel.app/',
     tags: ['Angular', 'Bootstrap', 'State Management'],
     challenges: [
       'Real-time Table Status: ระบบจัดการสถานะโต๊ะ (Available/Occupied) ด้วยสี Order Flow',
       'Logic: การจัดการตะกร้าสินค้าและการยืนยันออเดอร์ Payment Simulation: การจำลองการชำระเงินแบบ Cash และ QR Scan',
+      'รหัสสำหรับเข้าทดสอบระบบ:',
+      'Pass: 1234',
       ] 
   },
   { 
@@ -82,7 +84,7 @@ allProjects = [
     fullDescription: 'โปรเจกต์นี้ใช้ Angular เพื่อสร้างเว็บรวบรวมสูตรอาหารจากไข่ โดยเน้นการใช้งาน Component Modal เพื่อโชว์ข้อมูลรายละเอียดแบบ Pop-up ซึ่งช่วยให้ผู้ใช้สามารถดูสูตรอาหารได้อย่างสะดวกและไม่ต้องโหลดหน้าใหม่',
     imageUrl: 'assets/Projects/menu-egg.jpg',
     tech: ['Angular', 'Bootstrap', 'Responsive Design'],
-    link: '#',
+    link: 'https://egg-recip-interactive-portal.vercel.app/',
     tags: ['Angular', 'Bootstrap', 'Responsive Design'],
     challenges: [
       'UI/UX Design: การใช้ Modal/Pop-up แสดงข้อมูลแบบ Dynamic Clean ',
