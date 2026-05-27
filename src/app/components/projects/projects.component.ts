@@ -42,7 +42,7 @@ allProjects = [
     desc: 'เว็บแอพพลิเคชั่นสำหรับการประชุมออนไลน์ รางวัลเหรียญทองแดงระดับชาติ ประจำปี 2566 ', 
     tech: ['Web App', 'Real-time', 'Software Innovation'],
     imageUrl: 'assets/Projects/meeting.jpg',
-    link: '#',
+    link: 'https://test-7a83c.web.app',
     tags: ['Web App', 'Real-time', 'Software Innovation'],
     challenges: [
       'เว็บนี้พัฒนามาเมื่อ ยุค โควิค ระบาดได้ซักพัก จึงคิดโปรเจ็ก การประชุมออนไลน์ เว้นระยะห่าง กันโรคระบาด หลักการทำงาน',
@@ -67,7 +67,7 @@ allProjects = [
     category: 'Web', 
     desc: 'ระบบบริหารจัดการโต๊ะอาหารและออเดอร์แบบจำลอง โชว์การจัดการสถานะโต๊ะว่าง-ไม่ว่างแบบ Real-time', 
     tech: ['Angular', 'Bootstrap', 'State Management'],
-    imageUrl: 'assets/Projects/steakhouse.jpg', // แคปภาพหน้าจอตอนโต๊ะเป็นสีเทามาใส่
+    imageUrl: 'assets/Projects/steakhouse.png', // แคปภาพหน้าจอตอนโต๊ะเป็นสีเทามาใส่
     link: '#',
     tags: ['Angular', 'Bootstrap', 'State Management'],
     challenges: [
@@ -79,7 +79,7 @@ allProjects = [
     title: 'Egg Recipe Interactive Portal', 
     category: 'Web', 
     desc: 'เว็บรวบรวมสูตรอาหารจากไข่ เน้นการใช้งาน Component Modal เพื่อโชว์ข้อมูลรายละเอียดแบบ Pop-up', 
-    fullDescription: 'โปรเจกต์นี้ใช้ TensorFlow.js เพื่อจำแนกวัตถุได้มากกว่า 1,000 ชนิด โดยเน้นความเป็นส่วนตัวของข้อมูลผู้ใช้เพราะประมวลผลที่ฝั่ง Client ทั้งหมด',
+    fullDescription: 'โปรเจกต์นี้ใช้ Angular เพื่อสร้างเว็บรวบรวมสูตรอาหารจากไข่ โดยเน้นการใช้งาน Component Modal เพื่อโชว์ข้อมูลรายละเอียดแบบ Pop-up ซึ่งช่วยให้ผู้ใช้สามารถดูสูตรอาหารได้อย่างสะดวกและไม่ต้องโหลดหน้าใหม่',
     imageUrl: 'assets/Projects/menu-egg.jpg',
     tech: ['Angular', 'Bootstrap', 'Responsive Design'],
     link: '#',
@@ -95,12 +95,41 @@ allProjects = [
       desc: 'ระบบจำแนกวัตถุอัจฉริยะประมวลผลผ่าน Browser',
       fullDescription: 'โปรเจกต์นี้ใช้ TensorFlow.js เพื่อจำแนกวัตถุได้มากกว่า 1,000 ชนิด โดยเน้นความเป็นส่วนตัวของข้อมูลผู้ใช้เพราะประมวลผลที่ฝั่ง Client ทั้งหมด',
       imageUrl: 'assets/Projects/ai-object2.jpg',
-      link: '#',
+      link: 'https://ai-object-recognition-web-app.vercel.app/',
       tags: ['Angular', 'TensorFlow.js', 'Bootstrap'],
       challenges: [
         'การดักจับรูปจาก Clipboard (Paste Event)',
         'การจัดการประสิทธิภาพการรัน Model บนเครื่องผู้ใช้',
         'การออกแบบ UI ให้แสดงผลความมั่นใจ (Probability) แบบ Real-time'
+      ]
+    },
+    {
+      title: 'Chokdeecup Restaurant & Bar  Menu System',
+      category: 'Web',
+      desc: 'ระบบแสดงเมนูอาหารและเครื่องดื่มของร้านโชคดีคัพ',
+      fullDescription: 'โปรเจกต์นี้ใช้ Next.js เพื่อสร้างเว็บไซต์ที่แสดงเมนูอาหารและเครื่องดื่มของร้านโชคดีคัพ โดยเน้นการใช้งานที่ง่ายและการแสดงผลที่สวยงาม',
+      imageUrl: 'assets/Projects/chokdeecup-menu-system.jpg',
+      link: 'https://chokdeecup-menu.vercel.app/',
+      tags: ['Next.js',  'Bootstrap', 'Responsive Design'],
+      challenges: [
+        'การจัดการข้อมูลเมนูที่มีหลายหมวดหมู่และหลายรายการ',
+        'การออกแบบ UI ให้สวยงามและใช้งานง่ายบนอุปกรณ์ทุกขนาด',
+        'การเพิ่มฟีเจอร์ค้นหาและกรองเมนูเพื่อความสะดวกของผู้ใช้'
+      ]
+    }
+    ,
+    {
+      title: 'Library Management App',
+      category: 'Web',
+      desc: 'แอปพลิเคชันจัดการห้องสมุด',
+      fullDescription: 'โปรเจกต์นี้ใช้ Next.js เพื่อสร้างแอปพลิเคชันจัดการห้องสมุด โดยเน้นการใช้งานที่ง่ายและการแสดงผลที่สวยงาม',
+      imageUrl: 'assets/Projects/library-app.jpg',
+      link: '#',
+      tags: ['Next.js',  'Bootstrap', 'Responsive Design'],
+      challenges: [
+        'การจัดการข้อมูลหนังสือที่มีหลายหมวดหมู่และหลายรายการ',
+        'การออกแบบ UI ให้สวยงามและใช้งานง่ายบนอุปกรณ์ทุกขนาด',
+        'การเพิ่มฟีเจอร์ค้นหาและกรองหนังสือเพื่อความสะดวกของผู้ใช้'
       ]
     }
 ];

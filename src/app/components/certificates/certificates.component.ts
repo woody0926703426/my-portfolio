@@ -27,6 +27,25 @@ export class CertificatesComponent {
     year: '2565',
     image: 'assets/cert-national-2565.jpg'
   }
+  ,
+  {
+    title: 'นักศึกษาแกนนำโครงการวัยรุ่นกล้าปลอดภัย อายติดโรค',
+    issuer: 'สมาคมพัฒนาประชากรและชุมชน',
+    year: '2565',
+    image: 'assets/train-year2565.jpg'
+  },
+  {
+    title: 'นักศึกษาแกนนำโครงการวัยรุ่นกล้าปลอดภัย อายติดโรค  ปีที่2',
+    issuer: 'สมาคมพัฒนาประชากรและชุมชน',
+    year: '2566',
+    image: 'assets/train-year2566.jpg'
+  },
+  {
+    title: 'Successfully Completed the Certificate of Vocational Education In Information Technology',
+    issuer: 'Attawit Commercail Technology College',
+    year: '2567',
+    image: 'assets/certificate-of-vocational-education.jpg'
+  }
 ];
 
 }
